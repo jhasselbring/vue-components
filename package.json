@@ -1,7 +1,7 @@
 {
-  "name": "vue-components",
+  "name": "@j.hasselbring/vue-components",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
@@ -20,5 +20,17 @@
     "@vue/compiler-sfc": "^3.0.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhasselbring/vue-components.git"
+  },
+  "author": "JHasselbring",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhasselbring/vue-components/issues"
+  },
+  "homepage": "https://github.com/jhasselbring/vue-components#readme"
 }
