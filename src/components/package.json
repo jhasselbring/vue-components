@@ -1,10 +1,11 @@
 {
   "name": "@j.hasselbring/vue-components",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "publish:patch": "npm version patch && npm publish",
+    "publish:minor": "npm version minor && npm publish",
+    "publish:major": "npm version major && npm publish"
   },
   "dependencies": {
     "core-js": "^3.6.5",
